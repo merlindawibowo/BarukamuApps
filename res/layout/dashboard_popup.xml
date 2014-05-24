@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:padding="10dp">
+    
+    <TextView
+            android:id="@+id/peta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampilan Peta"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"/>
+    <ImageView
+        	android:background="@drawable/garis"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/peta"/>
+    <TextView
+            android:id="@+id/produkUsaha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/peta"
+            android:text="Produk Usaha"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"/>
+    <ImageView
+        	android:background="@drawable/garis"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/produkUsaha"/>
+    <TextView
+            android:id="@+id/produkBaru"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/produkUsaha"
+            android:text="Produk Baru"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"/>
+    <ImageView
+        	android:background="@drawable/garis"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/produkBaru"/>
+    <TextView
+            android:id="@+id/informasi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/produkBaru"
+            android:text="Informasi"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"/>
+    
+
+</RelativeLayout>

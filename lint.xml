@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/merlinda/barukamu/DashboardActivity.java" />
+        <ignore path="src/com/merlinda/barukamu/SingleInforActivity.java" />
+        <ignore path="src/com/merlinda/barukamu/SingleMapActivity.java" />
+        <ignore path="src/com/merlinda/barukamu/SingleMenuActivity.java" />
+        <ignore path="src/com/merlinda/barukamu/SingleNewProductActivity.java" />
+        <ignore path="src/com/merlinda/barukamu/SingleProductActivity.java" />
+    </issue>
+</lint>

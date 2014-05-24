@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bgbarukamu">
+
+        <Button
+                android:id="@+id/peta"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Tampilan Peta"
+                android:textColor="#000"
+                android:background="@drawable/dashd"/>
+        <Button
+                android:id="@+id/produkUsaha"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="Produk Usaha"
+                android:textColor="#000"
+                android:background="@drawable/dashd"/>
+        <Button
+                android:id="@+id/produkBaru"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="Produk Baru"
+                android:textColor="#000"
+                android:background="@drawable/dashd"/>
+        <Button
+                android:id="@+id/informasi"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="Informasi Terbaru"
+                android:textColor="#000"
+                android:background="@drawable/dashd"/>
+
+</LinearLayout>

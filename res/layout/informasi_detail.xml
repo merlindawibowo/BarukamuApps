@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+              android:background="@drawable/dashd">
+    <TextView
+            android:id="@+id/promo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="promo"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/namaUsaha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/promo"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="nama usaha"
+        android:textColor="#343434"
+        android:textSize="15dp" />
+
+</RelativeLayout>

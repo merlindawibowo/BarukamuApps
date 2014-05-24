@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bgbarukamu">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/avatar"/>
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp">
+            <TableRow>
+                <TextView
+		            android:id="@+id/namaProduk"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="nama produk"
+		            android:textColor="#040404"
+		            android:typeface="sans"
+		            android:textSize="20dp"
+		            android:layout_marginTop="15dp"
+		            android:layout_marginLeft="10dp"
+		            android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+		            android:id="@+id/namaUsaha"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="nama usaha"
+		            android:textColor="#040404"
+		            android:typeface="sans"
+		            android:textSize="15dp"
+		            android:layout_marginTop="10dp"
+		            android:layout_marginLeft="10dp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <ImageView
+        	android:background="@drawable/garis"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+		            android:id="@+id/title"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="DETIL PRODUK"
+		            android:textColor="#040404"
+		            android:typeface="sans"
+		            android:textSize="18dp"
+		            android:layout_margin="15dp"
+		            android:textStyle="bold"/>
+        <TextView
+		            android:id="@+id/harga"
+		            android:layout_below="@+id/title"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="harga produk"
+		            android:textColor="#040404"
+		            android:typeface="sans"
+		            android:textSize="15dp"
+		            android:layout_marginLeft="15dp"
+		            android:layout_marginRight="15dp"
+		            android:layout_marginBottom="10dp"/>
+        <TextView
+		            android:id="@+id/detil"
+		            android:layout_below="@+id/harga"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="detil produk"
+		            android:textColor="#040404"
+		            android:typeface="sans"
+		            android:textSize="15dp"
+		            android:layout_marginLeft="15dp"
+		            android:layout_marginRight="15dp"
+		            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
